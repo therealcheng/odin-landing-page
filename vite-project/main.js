@@ -23,3 +23,12 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 */
+
+const btn = document.querySelector('.btn');
+
+const openLink = () => {
+  window.open('https://www.w3schools.com');
+  console.log(`you've opened a link!`);
+};
+
+btn.addEventListener('click', openLink);
