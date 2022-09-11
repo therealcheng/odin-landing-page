@@ -130,11 +130,20 @@ ul {
   color: red;
   display: flex;
   justify-content: space-between;
-  margin: 48px;
+  margin: 24px;
 }
 
 .left-hook {
   display: flex;
   flex-direction: column;
   max-width: 500px;
+}
+
+.right-hook {
+  color: #ffffff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /* border: solid; */
+  background: #ffffff7f;
 }
