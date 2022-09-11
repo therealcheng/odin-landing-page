@@ -1,8 +1,6 @@
 :root {
   font-family: roboto, arial, helvetica, sans-serif;
-  font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,7 +10,6 @@
 }
 
 a {
-  font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
@@ -29,8 +26,9 @@ a:hover {
 } */
 
 h1 {
-  font-size: 3.2em;
+  /* font-size: 3.2em; */
   line-height: 1.1;
+  font-weight: normal;
 }
 
 body {
@@ -140,7 +138,7 @@ ul {
 
 .hero {
   font-size: 48px;
-  font-weight: 1200;
+  font-style: extra-bold;
 }
 
 .left-hook {
@@ -218,3 +216,31 @@ ul {
 .info-text {
   padding-top: 20px;
 }
+
+/* * Section 3: Quote section */
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+}
+
+.quote {
+  font-style: Italic;
+  font-weight: light;
+  padding: 150px;
+  color: #1f2937;
+}
+
+.thor {
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+/* * Section 4: Footer */
