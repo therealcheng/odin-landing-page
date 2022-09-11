@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: roboto, arial, helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -94,26 +94,25 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #3b82f6;
+    background-color: #3882f6;
     color: #ffffff;
   }
 }
 
 /* My Styles */
 .nav {
-  background-color: black;
+  color: #f9faf8;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding: 24px;
-  font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .nav-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: roboto, arial, helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -128,12 +127,18 @@ ul {
   list-style: none;
 }
 
-/* Section 1 */
+/* * Section 1 */
 .hook {
-  background: #535bf2;
+  background: #1f2937;
   color: white;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 90px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .left-hook {
@@ -141,14 +146,16 @@ ul {
   flex-direction: column;
   justify-content: space-evenly;
   max-width: 500px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .right-hook {
   color: #ffffff;
   display: flex;
-  justify-items: center;
+  /* justify-items: space-around; */
   align-items: center;
-  background: #ffffff7f;
+  background: #3d37377f;
 }
 
 .img-hook {
@@ -156,9 +163,9 @@ ul {
   height: auto;
 }
 
-/* Information */
+/* * Section 2: Information */
 .info-container {
-  margin: 50px;
+  margin: 30px;
   color: black;
   background-color: white;
 }
