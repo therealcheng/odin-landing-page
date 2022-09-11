@@ -35,13 +35,6 @@ body {
   margin: 0;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -244,3 +237,53 @@ ul {
 }
 
 /* * Section 4: Footer */
+
+/* #app {
+  display: flex;
+  height: 125px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+} */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #f9faf8;
+  width: 800px;
+  background: #3882f6;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.app-button {
+  border-color: white;
+  font-weight: bold;
+}
+
+.app-h1 {
+  font-weight: bold;
+}
