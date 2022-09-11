@@ -126,11 +126,11 @@ ul {
   list-style: none;
 }
 
+/* Section 1 */
 .hook {
   color: red;
   display: flex;
-  justify-content: space-between;
-  margin: 24px;
+  justify-content: space-evenly;
 }
 
 .left-hook {
