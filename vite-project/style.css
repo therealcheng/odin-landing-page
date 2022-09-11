@@ -4,10 +4,6 @@
   line-height: 24px;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +31,10 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+body {
+  margin: 0;
 }
 
 #app {
@@ -87,8 +87,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ffffff;
-    background-color: #0a1d2a;
+    color: black;
+    background-color: white;
   }
   a:hover {
     color: #747bff;
@@ -101,9 +101,11 @@ button:focus-visible {
 
 /* My Styles */
 .nav {
+  background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 12px;
+  margin: 0;
+  padding: 24px;
   font-weight: bold;
 }
 
@@ -128,7 +130,8 @@ ul {
 
 /* Section 1 */
 .hook {
-  color: red;
+  background: #535bf2;
+  color: white;
   display: flex;
   justify-content: space-evenly;
 }
@@ -136,6 +139,7 @@ ul {
 .left-hook {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   max-width: 500px;
 }
 
@@ -144,6 +148,37 @@ ul {
   display: flex;
   justify-items: center;
   align-items: center;
-  /* border: solid; */
   background: #ffffff7f;
+}
+
+.img-hook {
+  width: 300px;
+  height: auto;
+}
+
+/* Information */
+.info-container {
+  margin: 50px;
+  color: black;
+  background-color: white;
+}
+
+.title {
+  margin: 24px;
+  padding: 12px;
+  font-size: 36px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.info {
+  max-width: 200px;
+  text-align: center;
 }
